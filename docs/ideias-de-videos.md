@@ -16,6 +16,7 @@ vídeo, direta, e salva como Google Doc na pasta do tema certo, dentro de
 | Saúde e Bem-estar | `1Ns-SqkbLfZAlhjxiw89471jp1mqZDfFG` |
 | Casa e Decoração | `101Ftu54zjfh6qO_1GUO-zh9Mxt6EBNtr` |
 | Tecnologia e IA | `1XXIcRAkHftDZ6nXMMdZPbaM25YWH_9OS` |
+| Produtos para Comprar | `1UB9mT8pSwluzoy7dypK3fwBG-7k5_WEx` |
 | Outros | `1Fkc0X1HUGQddj7RTdt2b8uFnrlU-F3zV` |
 
 Se a Gabi disser o tema junto com o link ("isso é pra Casa"), use esse. Se nenhum
@@ -54,6 +55,9 @@ transcrição. Cabe numa tela. Em português:
 2. **A dica** — uma ou duas frases dizendo o que fazer.
 3. **Como fazer** — só se a dica tiver passos: no máximo 5 itens curtos, cada um
    começando com um verbo.
+
+Vídeo de produto vai para `Produtos para Comprar`, e o doc traz: nome do produto,
+para que serve, onde comprar e preço (só se o vídeo disser).
 
 Corte apresentação, história do autor, pedido de like, exemplos repetidos e
 qualquer coisa que não seja a dica em si. Se o vídeo tiver mais de uma dica útil,
