@@ -62,3 +62,11 @@ Artifact(action="publish", url="https://claude.ai/artifact/BqAJBGBLZStHLV4hpahN5
 ```
 
 O modelo de dados está em [`docs/modelo-de-dados.md`](docs/modelo-de-dados.md).
+
+## Ideias de vídeos
+
+Mande no chat o link de um vídeo do YouTube, Instagram ou TikTok. O Claude transcreve,
+escreve um relatório e salva como Google Doc numa pasta por tema dentro de
+[Ideias de Vídeos](https://drive.google.com/drive/folders/1DmN5L0Ph8V7x8-Ny5614UxD2TFMOPAJT)
+no Drive. Passo a passo, pastas e custos em
+[`docs/ideias-de-videos.md`](docs/ideias-de-videos.md).
