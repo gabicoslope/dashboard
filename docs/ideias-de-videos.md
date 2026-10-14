@@ -1,7 +1,7 @@
 # Ideias de Vídeos
 
-A Gabi manda no chat um link de vídeo com uma boa ideia. O Claude pega o que foi dito,
-escreve um relatório e salva como Google Doc na pasta do tema certo, dentro de
+A Gabi manda no chat um link de vídeo com uma boa ideia. O Claude tira só a dica do
+vídeo, direta, e salva como Google Doc na pasta do tema certo, dentro de
 **Ideias de Vídeos** no Google Drive (`gabicoslopee@gmail.com`).
 
 **Pasta raiz:** https://drive.google.com/drive/folders/1DmN5L0Ph8V7x8-Ny5614UxD2TFMOPAJT
@@ -35,8 +35,8 @@ passa pelo conector **vidIQ**. Antes de começar, confira o saldo com
 | YouTube sem legenda | `vidiq_video_watch` — só depois de avisar a Gabi | 25 |
 | Instagram Reels, TikTok, YouTube Shorts | `vidiq_watch_shortform_content` + `vidiq_job_poll` | 10 |
 
-- Para vídeo curto, passe um `prompt` pedindo: transcrição de tudo que é falado,
-  texto que aparece na tela e as ideias principais.
+- Para vídeo curto, passe um `prompt` pedindo a fala e o texto na tela, para
+  extrair a dica.
 - TikTok encurtado (`vm.tiktok.com`, `tiktok.com/t/`) não funciona: peça o link
   completo `tiktok.com/@usuario/video/<id>`.
 - Sem créditos suficientes, avise e pare. Não troque por outra fonte.
@@ -47,16 +47,17 @@ Crie o doc com Drive `create_file`, `contentMimeType: "text/html"`, o HTML em
 `textContent` e `parentId` = ID da pasta do tema. Título:
 `AAAA-MM-DD · <título curto do vídeo>` (data de hoje em America/Sao_Paulo).
 
-Estrutura, em português:
+O doc é curto e direto: só a dica, sem resumo do vídeo, sem enrolação, sem
+transcrição. Cabe numa tela. Em português:
 
-1. **Cabeçalho** — link do vídeo, autor/canal, plataforma, duração.
-2. **Em uma frase** — a ideia central.
-3. **Ideias principais** — lista, cada item com uma ou duas linhas.
-4. **Como aplicar** — passos práticos que a Gabi pode fazer, ligados à vida dela
-   (negócio, conteúdo, casa, rotina) quando fizer sentido.
-5. **Trechos marcantes** — frases citadas, com minutagem quando houver.
-6. **Transcrição** — completa no YouTube; nos vídeos curtos, a fala transcrita e a
-   descrição cena a cena.
+1. **Link** do vídeo, numa linha só.
+2. **A dica** — uma ou duas frases dizendo o que fazer.
+3. **Como fazer** — só se a dica tiver passos: no máximo 5 itens curtos, cada um
+   começando com um verbo.
 
-Depois responda no chat só com o link do doc, a pasta onde ficou e a frase central.
+Corte apresentação, história do autor, pedido de like, exemplos repetidos e
+qualquer coisa que não seja a dica em si. Se o vídeo tiver mais de uma dica útil,
+liste cada uma em uma linha.
+
+Depois responda no chat só com o link do doc, a pasta e a dica em uma frase.
 Vários links na mesma mensagem: um doc por vídeo.
